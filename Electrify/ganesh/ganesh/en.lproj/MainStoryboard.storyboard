@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="GE0-Bu-4En">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="firstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="electrifyedit.jpg" id="th6-EG-wTl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Pyd-lu-oMc">
+                                <rect key="frame" x="109" y="207" width="103" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="newgame:" destination="2" eventType="touchUpInside" id="ZGH-fN-Cls"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wYk-da-sDk">
+                                <rect key="frame" x="105" y="277" width="110" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="instructions:" destination="2" eventType="touchUpInside" id="EZn-gv-LzB"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xMN-JM-dvm">
+                                <rect key="frame" x="8" y="184" width="304" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">First of all the objective is that you need to make all bulbs glow. Condition is that, if you click one bulb then the corresponding bulbs present in concerned row and column swaps i.e if the bulb is in on state it switches off and vice versa.Keeping the above condition in mind you need to make all the bulbs glow.                                                                   </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x2d-Tm-yNZ">
+                                <rect key="frame" x="124" y="339" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="2" eventType="touchUpInside" id="luH-QB-Dfz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9w8-WJ-Nci">
+                                <rect key="frame" x="124" y="207" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Easy">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0E1-mT-Awl" kind="push" id="xSn-ZN-DeN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="han-Nm-E7H">
+                                <rect key="frame" x="124" y="277" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Hard">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="KVn-7N-FLe" kind="push" id="Gqg-Uv-SX3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6rE-Us-PXq">
+                                <rect key="frame" x="124" y="339" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back1:" destination="2" eventType="touchUpInside" id="e8k-Il-bzg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="o4n-vP-sJz"/>
+                    <connections>
+                        <outlet property="bk" destination="x2d-Tm-yNZ" id="lHv-7N-cTs"/>
+                        <outlet property="bk1" destination="6rE-Us-PXq" id="Gca-Bj-Pdl"/>
+                        <outlet property="easy" destination="9w8-WJ-Nci" id="fHY-0e-Y2p"/>
+                        <outlet property="hard" destination="han-Nm-E7H" id="41R-G7-P0q"/>
+                        <outlet property="ins" destination="wYk-da-sDk" id="YF6-ug-HXV"/>
+                        <outlet property="ng" destination="Pyd-lu-oMc" id="gSm-cd-goO"/>
+                        <outlet property="rules" destination="xMN-JM-dvm" id="moc-Xs-Ueu"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-297" y="32"/>
+        </scene>
+        <scene sceneID="wJS-b9-R44">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3hR-kp-pqc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="0E1-mT-Awl" customClass="easy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="avP-9h-Hfe">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bulb1edit.jpg" id="prL-Hz-rfB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SED-gT-Byw">
+                                <rect key="frame" x="20" y="141" width="82" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="3x3">
+                                    <color key="titleColor" red="0.27286151489999999" green="0.39622339379999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="x3:" destination="0E1-mT-Awl" eventType="touchUpInside" id="dyY-xf-OfJ"/>
+                                    <segue destination="lwB-cK-wvY" kind="push" identifier="link3" id="Mgl-WL-Gg2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7wZ-gJ-RuH">
+                                <rect key="frame" x="20" y="210" width="82" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="4x4">
+                                    <color key="titleColor" red="0.27286151489999999" green="0.39622339379999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="x4:" destination="0E1-mT-Awl" eventType="touchUpInside" id="Fa6-N2-y67"/>
+                                    <segue destination="lwB-cK-wvY" kind="push" identifier="link4" id="Zts-wo-bIA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lqK-9B-EvO">
+                                <rect key="frame" x="20" y="282" width="82" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="5x5">
+                                    <color key="titleColor" red="0.27286151489999999" green="0.39622339379999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="x5:" destination="0E1-mT-Awl" eventType="touchUpInside" id="EaD-EM-doB"/>
+                                    <segue destination="lwB-cK-wvY" kind="push" identifier="link5" id="K65-gy-eVf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uVd-by-G32">
+                                <rect key="frame" x="20" y="75" width="82" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="2x2">
+                                    <color key="titleColor" red="0.27286151489999999" green="0.39622339379999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="x2:" destination="0E1-mT-Awl" eventType="touchUpInside" id="Kpu-Yn-zfZ"/>
+                                    <segue destination="lwB-cK-wvY" kind="push" identifier="link2" id="Jqf-V4-LBw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="C7G-4X-ShI"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="175" y="-222"/>
+        </scene>
+        <scene sceneID="cIy-SK-27n">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e4m-Ah-2Jz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="KVn-7N-FLe" customClass="hard" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ih0-xs-igL">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="blub2.jpg" id="oWg-J5-yAn">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pk5-G0-mwC">
+                                <rect key="frame" x="26" y="67" width="82" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="2x3">
+                                    <color key="titleColor" red="1" green="0.82868557369999996" blue="0.81782705069999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mat2x3:" destination="KVn-7N-FLe" eventType="touchUpInside" id="Xkg-OR-Vz7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0jZ-9T-b6h">
+                                <rect key="frame" x="26" y="133" width="82" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="3x4">
+                                    <color key="titleColor" red="1" green="0.82868557369999996" blue="0.81782705069999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mat3x4:" destination="KVn-7N-FLe" eventType="touchUpInside" id="BUm-vI-t4S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Zrt-cB-hS8">
+                                <rect key="frame" x="26" y="265" width="82" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="5x6">
+                                    <color key="titleColor" red="1" green="0.82868557369999996" blue="0.81782705069999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mat5x6:" destination="KVn-7N-FLe" eventType="touchUpInside" id="FCY-xg-voz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="m1p-m5-lSm">
+                                <rect key="frame" x="26" y="199" width="82" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="4x3">
+                                    <color key="titleColor" red="1" green="0.82868557369999996" blue="0.81782705069999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mat4x3:" destination="KVn-7N-FLe" eventType="touchUpInside" id="eHT-oR-mAr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zE6-ox-tec"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="182" y="487"/>
+        </scene>
+        <scene sceneID="3cn-0G-wsW">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IQJ-gK-yY4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="lwB-cK-wvY" customClass="easylevelcase" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jMf-uE-6Yh">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back.jpg" id="S7A-35-SZY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vYv-2B-kXh">
+                                <rect key="frame" x="61" y="175" width="199" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <state key="normal" title="Level-2">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="level2:" destination="lwB-cK-wvY" eventType="touchUpInside" id="iXJ-BA-sxI"/>
+                                    <segue destination="eSC-tK-hEw" kind="push" identifier="oddlink2" id="eSY-Y1-S9s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dRM-85-7UP">
+                                <rect key="frame" x="61" y="305" width="199" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <state key="normal" title="Level-3">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="level3:" destination="lwB-cK-wvY" eventType="touchUpInside" id="sVt-Ha-cuK"/>
+                                    <segue destination="eSC-tK-hEw" kind="push" identifier="oddlink3" id="7vE-wf-xau"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ShC-e6-d2m">
+                                <rect key="frame" x="61" y="56" width="199" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <state key="normal" title="Level-1">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="level1:" destination="lwB-cK-wvY" eventType="touchUpInside" id="eIp-6m-wzB"/>
+                                    <segue destination="eSC-tK-hEw" kind="push" identifier="oddlink1" id="B3l-xZ-uO6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wlg-iV-ot7">
+                                <rect key="frame" x="61" y="56" width="199" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <state key="normal" title="Level-1">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="l1:" destination="lwB-cK-wvY" eventType="touchUpInside" id="pEF-gL-p9X"/>
+                                    <segue destination="3M9-ic-Q9q" kind="push" identifier="evenlink1" id="xkX-b8-Sat"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PaU-Mq-HiD">
+                                <rect key="frame" x="61" y="175" width="199" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <state key="normal" title="Level-2">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="l2:" destination="lwB-cK-wvY" eventType="touchUpInside" id="2uB-WA-Zhq"/>
+                                    <segue destination="3M9-ic-Q9q" kind="push" identifier="evenlink2" id="3gG-CG-dqq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RxG-jY-wdb">
+                                <rect key="frame" x="61" y="305" width="199" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <state key="normal" title="Level-3">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="l3:" destination="lwB-cK-wvY" eventType="touchUpInside" id="SYs-Jd-gD0"/>
+                                    <segue destination="3M9-ic-Q9q" kind="push" identifier="evenlink3" id="nCb-mt-vWt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Aie-T9-0xC"/>
+                    <connections>
+                        <outlet property="l1" destination="wlg-iV-ot7" id="qDx-jT-mWc"/>
+                        <outlet property="l2" destination="PaU-Mq-HiD" id="D4N-ee-msH"/>
+                        <outlet property="l3" destination="RxG-jY-wdb" id="z5P-sj-qbe"/>
+                        <outlet property="level1" destination="ShC-e6-d2m" id="QaV-tU-Efn"/>
+                        <outlet property="level2" destination="vYv-2B-kXh" id="nZc-Ok-WKZ"/>
+                        <outlet property="level3" destination="dRM-85-7UP" id="DN1-3f-Szq"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="622" y="-211"/>
+        </scene>
+        <scene sceneID="vbA-cK-y0k">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FCV-Db-8Th" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="3M9-ic-Q9q" customClass="evenmat" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qgh-p7-tqI">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WVB-uz-6S7">
+                                <rect key="frame" x="66" y="92" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but11:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="Ajv-EJ-I9E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1Nn-e2-5LJ">
+                                <rect key="frame" x="66" y="163" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but21:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="iJB-5Q-Yew"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9If-gw-ufg">
+                                <rect key="frame" x="66" y="232" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but31:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="FYj-6d-wuU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xdg-N4-xh8">
+                                <rect key="frame" x="66" y="301" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but41:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="Mi1-Sy-TbT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CHv-fS-E5c">
+                                <rect key="frame" x="119" y="92" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but12:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="9X3-YY-OIf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LL9-ZA-uTQ">
+                                <rect key="frame" x="119" y="163" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but22:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="thz-ga-wYR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bcW-oL-Wgp">
+                                <rect key="frame" x="119" y="232" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but32:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="OpE-yx-NhQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mwh-20-DfJ">
+                                <rect key="frame" x="119" y="301" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but42:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="apK-sM-Wkh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zBU-e7-e7b">
+                                <rect key="frame" x="172" y="94" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but13:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="hxv-ik-L8O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="34I-ah-aLC">
+                                <rect key="frame" x="172" y="163" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but23:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="Dzu-gK-nc0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4ky-ot-T4H">
+                                <rect key="frame" x="172" y="232" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but33:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="J8Z-n0-LrB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eYo-hL-SQu">
+                                <rect key="frame" x="172" y="301" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but43:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="f6p-yA-Qub"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OEF-bp-pIK">
+                                <rect key="frame" x="225" y="94" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but14:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="SJh-4o-FOW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8yk-Ne-1bc">
+                                <rect key="frame" x="225" y="163" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but24:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="pSY-rr-IAi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8AP-PC-xTg">
+                                <rect key="frame" x="225" y="232" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but34:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="vKq-EJ-sw6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="378-YD-hTU">
+                                <rect key="frame" x="225" y="301" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but44:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="GF6-J5-mVz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="5" lineBreakMode="tailTruncation" minimumFontSize="10" id="jwV-UL-kJV">
+                                <rect key="frame" x="291" y="32" width="24" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="No. of" lineBreakMode="tailTruncation" minimumFontSize="10" id="ZT9-BQ-CZq">
+                                <rect key="frame" x="236" y="32" width="47" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="steps" lineBreakMode="tailTruncation" minimumFontSize="10" id="DlB-cf-fbu">
+                                <rect key="frame" x="238" y="52" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ejy-pJ-MwF">
+                                <rect key="frame" x="129" y="26" width="63" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Undo">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="undoaction:" destination="3M9-ic-Q9q" eventType="touchUpInside" id="78U-zr-4eR"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bulbedited.jpg" id="xdb-4r-7su">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z2u-tB-9HB"/>
+                    <connections>
+                        <outlet property="but11" destination="WVB-uz-6S7" id="sqg-ba-6mj"/>
+                        <outlet property="but12" destination="CHv-fS-E5c" id="YVE-2b-Yg6"/>
+                        <outlet property="but13" destination="zBU-e7-e7b" id="Nai-Gg-u0o"/>
+                        <outlet property="but14" destination="OEF-bp-pIK" id="ysT-Vb-e4P"/>
+                        <outlet property="but21" destination="1Nn-e2-5LJ" id="xkA-vn-muK"/>
+                        <outlet property="but22" destination="LL9-ZA-uTQ" id="LPV-zp-Gly"/>
+                        <outlet property="but23" destination="34I-ah-aLC" id="OR1-sk-eNh"/>
+                        <outlet property="but24" destination="8yk-Ne-1bc" id="MeU-rA-8AR"/>
+                        <outlet property="but31" destination="9If-gw-ufg" id="a6J-Pl-9VN"/>
+                        <outlet property="but32" destination="bcW-oL-Wgp" id="tve-Ce-iNL"/>
+                        <outlet property="but33" destination="4ky-ot-T4H" id="o2Y-1p-0wH"/>
+                        <outlet property="but34" destination="8AP-PC-xTg" id="PYD-jm-W3n"/>
+                        <outlet property="but41" destination="Xdg-N4-xh8" id="6oZ-JP-Uis"/>
+                        <outlet property="but42" destination="mwh-20-DfJ" id="sZH-7B-AbF"/>
+                        <outlet property="but43" destination="eYo-hL-SQu" id="ahf-zO-BKo"/>
+                        <outlet property="but44" destination="378-YD-hTU" id="kCo-Rt-WYe"/>
+                        <outlet property="score" destination="jwV-UL-kJV" id="F2b-aG-Pqh"/>
+                        <outlet property="undo" destination="ejy-pJ-MwF" id="wKi-NF-f1D"/>
+                        <outlet property="viewer" destination="xdb-4r-7su" id="hxN-8G-cpW"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1130" y="196"/>
+        </scene>
+        <scene sceneID="LFj-dg-XhG">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="riv-e9-e8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="eSC-tK-hEw" customClass="oddmat" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YQh-9c-ZTw">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="23r-1Q-M54">
+                                <rect key="frame" x="85" y="136" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but22:" destination="eSC-tK-hEw" eventType="touchUpInside" id="QmZ-24-ZqH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XsJ-wJ-ryX">
+                                <rect key="frame" x="138" y="136" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but23:" destination="eSC-tK-hEw" eventType="touchUpInside" id="08L-jd-etY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XqB-Lr-NS3">
+                                <rect key="frame" x="191" y="136" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but24:" destination="eSC-tK-hEw" eventType="touchUpInside" id="eFV-fp-GI0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dq5-SE-gzl">
+                                <rect key="frame" x="191" y="205" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but34:" destination="eSC-tK-hEw" eventType="touchUpInside" id="gnY-fY-ICN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rEO-NA-P3a">
+                                <rect key="frame" x="138" y="205" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but33:" destination="eSC-tK-hEw" eventType="touchUpInside" id="yYd-H2-XyV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VjE-Eo-RH9">
+                                <rect key="frame" x="85" y="205" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but32:" destination="eSC-tK-hEw" eventType="touchUpInside" id="VTl-6w-h8V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UPU-79-tz2">
+                                <rect key="frame" x="85" y="274" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but42:" destination="eSC-tK-hEw" eventType="touchUpInside" id="GvI-g7-tUb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h6M-Bu-Q0k">
+                                <rect key="frame" x="138" y="274" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but43:" destination="eSC-tK-hEw" eventType="touchUpInside" id="GTM-e0-Rla"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j6u-eK-xW9">
+                                <rect key="frame" x="191" y="274" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but44:" destination="eSC-tK-hEw" eventType="touchUpInside" id="3C1-X0-kdW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hup-Z9-1Z9">
+                                <rect key="frame" x="85" y="343" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but52:" destination="eSC-tK-hEw" eventType="touchUpInside" id="RAp-uy-Wxo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zWf-kE-08P">
+                                <rect key="frame" x="138" y="343" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but53:" destination="eSC-tK-hEw" eventType="touchUpInside" id="7cX-L4-QDM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="k4h-De-p9d">
+                                <rect key="frame" x="191" y="343" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but54:" destination="eSC-tK-hEw" eventType="touchUpInside" id="JdP-jf-fkE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hho-AC-19B">
+                                <rect key="frame" x="85" y="67" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but12:" destination="eSC-tK-hEw" eventType="touchUpInside" id="prg-Dx-8xc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ICb-Kz-aPN">
+                                <rect key="frame" x="138" y="67" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but13:" destination="eSC-tK-hEw" eventType="touchUpInside" id="lzT-KS-lEv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WTg-pU-Vjl">
+                                <rect key="frame" x="191" y="67" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but14:" destination="eSC-tK-hEw" eventType="touchUpInside" id="TVg-Sg-W1B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sDe-cI-ZhH">
+                                <rect key="frame" x="244" y="136" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but25:" destination="eSC-tK-hEw" eventType="touchUpInside" id="3az-eF-bHe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="L08-8C-b4W">
+                                <rect key="frame" x="244" y="205" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but35:" destination="eSC-tK-hEw" eventType="touchUpInside" id="DJJ-wb-69g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TPD-Z2-fAs">
+                                <rect key="frame" x="244" y="274" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but45:" destination="eSC-tK-hEw" eventType="touchUpInside" id="yaP-hR-hZ6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j8B-dd-8J6">
+                                <rect key="frame" x="244" y="343" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but55:" destination="eSC-tK-hEw" eventType="touchUpInside" id="fFk-r1-K1J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8F0-0h-QJ6">
+                                <rect key="frame" x="244" y="67" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but15:" destination="eSC-tK-hEw" eventType="touchUpInside" id="n9b-Og-yW8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tlw-Ox-u9t">
+                                <rect key="frame" x="32" y="136" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but21:" destination="eSC-tK-hEw" eventType="touchUpInside" id="hy8-bL-1O5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vhe-Ci-E6f">
+                                <rect key="frame" x="32" y="205" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but31:" destination="eSC-tK-hEw" eventType="touchUpInside" id="8ug-43-FDb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eAO-Vh-cl5">
+                                <rect key="frame" x="32" y="274" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but41:" destination="eSC-tK-hEw" eventType="touchUpInside" id="DV9-h3-CH2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nee-Ks-ced">
+                                <rect key="frame" x="32" y="343" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but51:" destination="eSC-tK-hEw" eventType="touchUpInside" id="Oba-PC-kqe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3h2-jh-s7k">
+                                <rect key="frame" x="32" y="67" width="45" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="unglow.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="but11:" destination="eSC-tK-hEw" eventType="touchUpInside" id="Fbf-MO-7UH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="5" lineBreakMode="tailTruncation" minimumFontSize="10" id="hkL-Ka-Fib">
+                                <rect key="frame" x="289" y="12" width="24" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="No. of" lineBreakMode="tailTruncation" minimumFontSize="10" id="FAS-F9-E35">
+                                <rect key="frame" x="234" y="12" width="47" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="steps" lineBreakMode="tailTruncation" minimumFontSize="10" id="TCH-Md-Nye">
+                                <rect key="frame" x="236" y="32" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Kd-aR-eVL">
+                                <rect key="frame" x="129" y="15" width="63" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Undo">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="undoaction:" destination="eSC-tK-hEw" eventType="touchUpInside" id="WGr-lz-hdE"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bulbedited.jpg" id="QFM-Ra-528">
+                                <rect key="frame" x="-2" y="0.0" width="325" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lyo-Vw-ebx"/>
+                    <connections>
+                        <outlet property="but11" destination="3h2-jh-s7k" id="hX5-m3-1yZ"/>
+                        <outlet property="but12" destination="Hho-AC-19B" id="adv-oP-YrR"/>
+                        <outlet property="but13" destination="ICb-Kz-aPN" id="hTx-fM-yYf"/>
+                        <outlet property="but14" destination="WTg-pU-Vjl" id="TrT-8r-eOK"/>
+                        <outlet property="but15" destination="8F0-0h-QJ6" id="Yhe-d6-TWc"/>
+                        <outlet property="but21" destination="Tlw-Ox-u9t" id="JcG-k1-DJN"/>
+                        <outlet property="but22" destination="23r-1Q-M54" id="7yr-VY-IYd"/>
+                        <outlet property="but23" destination="XsJ-wJ-ryX" id="Pw8-h7-udx"/>
+                        <outlet property="but24" destination="XqB-Lr-NS3" id="CmT-Hx-SKC"/>
+                        <outlet property="but25" destination="sDe-cI-ZhH" id="o3T-rT-0dE"/>
+                        <outlet property="but31" destination="Vhe-Ci-E6f" id="Afc-QY-MGb"/>
+                        <outlet property="but32" destination="VjE-Eo-RH9" id="3GP-SF-7IN"/>
+                        <outlet property="but33" destination="rEO-NA-P3a" id="7UM-Nu-QSG"/>
+                        <outlet property="but34" destination="dq5-SE-gzl" id="br5-gQ-ZK3"/>
+                        <outlet property="but35" destination="L08-8C-b4W" id="IBr-j5-PxJ"/>
+                        <outlet property="but41" destination="eAO-Vh-cl5" id="XNB-6b-Snj"/>
+                        <outlet property="but42" destination="UPU-79-tz2" id="7wp-Rw-NLJ"/>
+                        <outlet property="but43" destination="h6M-Bu-Q0k" id="5uw-Mb-kRz"/>
+                        <outlet property="but44" destination="j6u-eK-xW9" id="jYd-Xo-fFx"/>
+                        <outlet property="but45" destination="TPD-Z2-fAs" id="yQn-vK-7zY"/>
+                        <outlet property="but51" destination="nee-Ks-ced" id="P4U-PO-3e6"/>
+                        <outlet property="but52" destination="Hup-Z9-1Z9" id="IBC-zj-EXB"/>
+                        <outlet property="but53" destination="zWf-kE-08P" id="VwL-1y-TVv"/>
+                        <outlet property="but54" destination="k4h-De-p9d" id="ll0-w0-9rq"/>
+                        <outlet property="but55" destination="j8B-dd-8J6" id="6cf-2l-ycv"/>
+                        <outlet property="score" destination="hkL-Ka-Fib" id="ZIz-0h-Iun"/>
+                        <outlet property="undo" destination="5Kd-aR-eVL" id="Mq0-N6-MJu"/>
+                        <outlet property="viewer" destination="QFM-Ra-528" id="UoM-lh-LTS"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1114" y="-421"/>
+        </scene>
+        <scene sceneID="FHV-1v-sx8">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QAD-np-WoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="GE0-Bu-4En" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ocz-4a-X05">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="kC6-gF-81t"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-706" y="20"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back.jpg" width="262" height="192"/>
+        <image name="blub2.jpg" width="275" height="183"/>
+        <image name="bulb1edit.jpg" width="275" height="183"/>
+        <image name="bulbedited.jpg" width="177" height="284"/>
+        <image name="electrifyedit.jpg" width="3976" height="2578"/>
+        <image name="unglow.jpg" width="194" height="259"/>
+    </resources>
+    <classes>
+        <class className="easy" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/easy.h"/>
+            <relationships>
+                <relationship kind="action" name="x2:"/>
+                <relationship kind="action" name="x3:"/>
+                <relationship kind="action" name="x4:"/>
+                <relationship kind="action" name="x5:"/>
+            </relationships>
+        </class>
+        <class className="easylevelcase" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/easylevelcase.h"/>
+            <relationships>
+                <relationship kind="action" name="l1:"/>
+                <relationship kind="action" name="l2:"/>
+                <relationship kind="action" name="l3:"/>
+                <relationship kind="action" name="level1:"/>
+                <relationship kind="action" name="level2:"/>
+                <relationship kind="action" name="level3:"/>
+                <relationship kind="outlet" name="l1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="l2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="l3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="level1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="level2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="level3" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="evenmat" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/evenmat.h"/>
+            <relationships>
+                <relationship kind="action" name="but11:"/>
+                <relationship kind="action" name="but12:"/>
+                <relationship kind="action" name="but13:"/>
+                <relationship kind="action" name="but14:"/>
+                <relationship kind="action" name="but21:"/>
+                <relationship kind="action" name="but22:"/>
+                <relationship kind="action" name="but23:"/>
+                <relationship kind="action" name="but24:"/>
+                <relationship kind="action" name="but31:"/>
+                <relationship kind="action" name="but32:"/>
+                <relationship kind="action" name="but33:"/>
+                <relationship kind="action" name="but34:"/>
+                <relationship kind="action" name="but41:"/>
+                <relationship kind="action" name="but42:"/>
+                <relationship kind="action" name="but43:"/>
+                <relationship kind="action" name="but44:"/>
+                <relationship kind="action" name="undoaction:"/>
+                <relationship kind="outlet" name="but11" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but12" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but13" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but14" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but21" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but22" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but23" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but24" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but31" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but32" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but33" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but34" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but41" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but42" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but43" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but44" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="score" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="undo" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="viewer" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="firstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/firstViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back1:"/>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="instructions:"/>
+                <relationship kind="action" name="newgame:"/>
+                <relationship kind="outlet" name="bk" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bk1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="easy" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="hard" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="ins" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="ng" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="rules" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="hard" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/hard.h"/>
+            <relationships>
+                <relationship kind="action" name="mat2x3:"/>
+                <relationship kind="action" name="mat3x4:"/>
+                <relationship kind="action" name="mat4x3:"/>
+                <relationship kind="action" name="mat5x6:"/>
+            </relationships>
+        </class>
+        <class className="oddmat" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/oddmat.h"/>
+            <relationships>
+                <relationship kind="action" name="but11:"/>
+                <relationship kind="action" name="but12:"/>
+                <relationship kind="action" name="but13:"/>
+                <relationship kind="action" name="but14:"/>
+                <relationship kind="action" name="but15:"/>
+                <relationship kind="action" name="but21:"/>
+                <relationship kind="action" name="but22:"/>
+                <relationship kind="action" name="but23:"/>
+                <relationship kind="action" name="but24:"/>
+                <relationship kind="action" name="but25:"/>
+                <relationship kind="action" name="but31:"/>
+                <relationship kind="action" name="but32:"/>
+                <relationship kind="action" name="but33:"/>
+                <relationship kind="action" name="but34:"/>
+                <relationship kind="action" name="but35:"/>
+                <relationship kind="action" name="but41:"/>
+                <relationship kind="action" name="but42:"/>
+                <relationship kind="action" name="but43:"/>
+                <relationship kind="action" name="but44:"/>
+                <relationship kind="action" name="but45:"/>
+                <relationship kind="action" name="but51:"/>
+                <relationship kind="action" name="but52:"/>
+                <relationship kind="action" name="but53:"/>
+                <relationship kind="action" name="but54:"/>
+                <relationship kind="action" name="but55:"/>
+                <relationship kind="action" name="undoaction:"/>
+                <relationship kind="outlet" name="but11" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but12" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but13" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but14" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but15" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but21" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but22" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but23" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but24" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but25" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but31" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but32" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but33" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but34" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but35" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but41" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but42" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but43" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but44" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but45" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but51" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but52" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but53" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but54" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="but55" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="score" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="undo" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="viewer" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="K65-gy-eVf"/>
+        <segue reference="nCb-mt-vWt"/>
+        <segue reference="B3l-xZ-uO6"/>
+    </inferredMetricsTieBreakers>
+</document>
